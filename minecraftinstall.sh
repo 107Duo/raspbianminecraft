@@ -21,3 +21,5 @@ cd ~/Minecraft
 wget http://orienteer.webspace.virginmedia.com/minecraft/run.sh
 mv ~/Downloads/liblwjgl.so ~/Minecraft/natives
 mv ~/Downloads/libopenal.so ~/Minecraft/natives
+chmod +x run.sh
+./run.sh
