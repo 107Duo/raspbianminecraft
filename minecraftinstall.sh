@@ -3,7 +3,7 @@
 sudo apt-get update
 sudo apt-get dist-upgrade
 sudo apt-get install raspi-gpio
-sudo apt-get install xcompmgr libgl1-mesa-dri
+sudo apt-get install xcompmgr libgl1-mesa-dri -y
 cd ~/Downloads
 wget https://s3.amazonaws.com/Minecraft.Download/launcher/Minecraft.jar
 mkdir ~/Minecraft
