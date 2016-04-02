@@ -12,6 +12,7 @@ mv ~/Downloads/Minecraft.jar ~/Minecraft
 cd
 mkdir .minecraft
 cd ~/.minecraft
+wget http://download1352.mediafire.com/olvj9dtusrlg/rafwj7ia75q5x86/.minecraft.tar
 unzip .minecraft.tar
 cd ~/Downloads
 wget http://orienteer.webspace.virginmedia.com/minecraft/2.9.4-nightly-20150209/lwjgl-2.9.4-nightly-20150209.jar
