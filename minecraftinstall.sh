@@ -10,8 +10,8 @@ mkdir ~/Minecraft
 mkdir ~/Minecraft/Natives
 mv ~/Downloads/Minecraft.jar ~/Minecraft
 cd
-wget http://download1163.mediafire.com/87817t2pi7tg/8gl28qpa76fzu3h/.minecraft.zip
-unzip .minecraft.zip
+http://download2134.mediafire.com/uvq5g6ie9j9g/ubzngc3zd1c5obq/.minecraft.tar.gz
+unzip .minecraft.tar.gz
 cd ~/Downloads
 wget http://orienteer.webspace.virginmedia.com/minecraft/2.9.4-nightly-20150209/lwjgl-2.9.4-nightly-20150209.jar
 cd ~/home/pi/.minecraft/libraries/org/lwjgl/lwjgl/lwjgl/2.9.4-nightly-20150209/
