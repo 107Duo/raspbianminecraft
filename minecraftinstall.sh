@@ -9,6 +9,10 @@ wget https://s3.amazonaws.com/Minecraft.Download/launcher/Minecraft.jar
 mkdir ~/Minecraft
 mkdir ~/Minecraft/Natives
 mv ~/Downloads/Minecraft.jar ~/Minecraft
+cd
+mkdir .minecraft
+cd ~/.minecraft
+unzip .minecraft.tar
 cd ~/Downloads
 wget http://orienteer.webspace.virginmedia.com/minecraft/2.9.4-nightly-20150209/lwjgl-2.9.4-nightly-20150209.jar
 cd ~/home/pi/.minecraft/libraries/org/lwjgl/lwjgl/lwjgl/2.9.4-nightly-20150209/
