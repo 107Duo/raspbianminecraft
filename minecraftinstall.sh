@@ -9,10 +9,6 @@ wget https://s3.amazonaws.com/Minecraft.Download/launcher/Minecraft.jar
 mkdir ~/Minecraft
 mkdir ~/Minecraft/Natives
 mv ~/Downloads/Minecraft.jar ~/Minecraft
-sudo apt-get install unrar
-cd
-wget http://download1998.mediafire.com/34312va43lig/bbc9q11zms4x28g/minecraft.rar
-unrar x minecraft.rar
 cd ~/Downloads
 wget http://orienteer.webspace.virginmedia.com/minecraft/2.9.4-nightly-20150209/lwjgl-2.9.4-nightly-20150209.jar
 cd ~/home/pi/.minecraft/libraries/org/lwjgl/lwjgl/lwjgl/2.9.4-nightly-20150209/
