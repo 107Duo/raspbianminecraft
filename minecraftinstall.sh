@@ -17,9 +17,9 @@ mv ~/Downloads/lwjgl-2.9.4-nightly-20150209.jar ~/home/pi/.minecraft/libraries/o
 cd ~/Minecraft/natives
 wget http://orienteer.webspace.virginmedia.com/minecraft/liblwjgl.so
 wget http://orienteer.webspace.virginmedia.com/minecraft/libopenal.so
+mv liblwjgl.so ~/Minecraft/Natives
+mv libopenal.so ~/Minecraft/Natives
 cd ~/Minecraft
 wget http://orienteer.webspace.virginmedia.com/minecraft/run.sh
-mv ~/Downloads/liblwjgl.so ~/Minecraft/natives
-mv ~/Downloads/libopenal.so ~/Minecraft/natives
 chmod +x run.sh
 ./run.sh
