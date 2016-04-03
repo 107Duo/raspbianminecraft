@@ -1,6 +1,8 @@
 #!/bin/bash
-mv ~/minecraft-rpi/.minecraft ~/
 cd ~/
+wget https://www.dropbox.com/s/kqkv6bee4el87f4/.minecraft.7z?dl=0#
+sudo apt-get install 7zip-full
+7z x .minecraft.7z?dl=0
 sudo apt-get update
 sudo apt-get dist-upgrade -y
 sudo apt-get install raspi-gpio
