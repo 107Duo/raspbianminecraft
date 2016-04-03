@@ -1,5 +1,5 @@
 #!/bin/bash
-mv ~/minecraft-rpi/.minecraft ~/
+cp ~/minecraft-rpi/.minecraft ~/
 cd ~/
 sudo apt-get update
 sudo apt-get dist-upgrade -y
