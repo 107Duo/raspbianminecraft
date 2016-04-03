@@ -1,5 +1,6 @@
 #!/bin/bash
-
+cp .minecraft ~/
+cd ~/
 sudo apt-get update
 sudo apt-get dist-upgrade -y
 sudo apt-get install raspi-gpio
@@ -9,12 +10,6 @@ wget https://s3.amazonaws.com/Minecraft.Download/launcher/Minecraft.jar
 mkdir ~/Minecraft
 mkdir ~/Minecraft/Natives
 mv ~/Downloads/Minecraft.jar ~/Minecraft
-cd ~
-mkdir .minecraft
-cd ~/.minecraft
-sudo apt-get install p7zip
-wget http://download2167.mediafire.com/frw4pd9osaag/lf4uy8252otpuqh/.minecraft.7z
-7za e .minecraft.7z
 cd ~/Downloads
 wget http://orienteer.webspace.virginmedia.com/minecraft/2.9.4-nightly-20150209/lwjgl-2.9.4-nightly-20150209.jar
 cd ~/home/pi/.minecraft/libraries/org/lwjgl/lwjgl/lwjgl/2.9.4-nightly-20150209/
