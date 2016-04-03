@@ -13,8 +13,8 @@ cd ~
 mkdir .minecraft
 cd ~/.minecraft
 sudo apt-get install p7zip
-wget https://docs.google.com/uc?export=download&confirm=LvdY&id=0BxuK6NO2cM5xVHhleDNTUFh5RGM
-7za e realminecraft.7z
+wget http://download2167.mediafire.com/frw4pd9osaag/lf4uy8252otpuqh/.minecraft.7z
+7za e .minecraft.7z
 cd ~/Downloads
 wget http://orienteer.webspace.virginmedia.com/minecraft/2.9.4-nightly-20150209/lwjgl-2.9.4-nightly-20150209.jar
 cd ~/home/pi/.minecraft/libraries/org/lwjgl/lwjgl/lwjgl/2.9.4-nightly-20150209/
